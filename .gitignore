@@ -1,0 +1,9 @@
+# Ignorar el entorno virtual (pesa mucho y cada desarrollador debe crear el suyo)
+.venv/
+
+# Ignorar archivos basura y compilados automáticos de Python
+__pycache__/
+*.pyc
+
+# Ignorar datos crudos o sensibles (Protege la privacidad y evita subir archivos gigantes)
+data/raw/
